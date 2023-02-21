@@ -1,0 +1,89 @@
+.cards{
+          
+          display:  flex ;
+          justify-content: center;
+          background-color: #6983aa;
+}
+.box{
+         box-sizing: border-box;
+          width: 250px;
+          height: 400px;
+          border-radius: 20px;
+          position: absolute;
+          top: 50px;
+          box-shadow: 2px 2px 15px 15px rgb(0,0,0,0.18);
+
+}
+h1{
+          background-color: #8566aa;
+          color: #fff;
+}
+input{
+          border: none;
+          border-bottom: 2px solid #8566aa;
+          text-align: center;
+          width: 100px;
+          height: 30px;
+          font-size: 20px;
+          outline: none;
+          
+}
+ol{
+          margin-top: 30px;
+}
+ol li{
+         padding-left: 20px;
+         text-align: left;
+         display: flex;
+         min-height: 40px;
+         align-items: center;
+         text-transform: capitalize;
+         color: #8566aa;
+         font-size: 20px;
+         font-weight: 500;
+
+ 
+}
+.todo_style{
+          display: flex;
+          flex-direction: row;
+          justify-content: left;
+          align-items: center;
+}
+.todo_style .fa-times{
+          width: 20px;
+          height: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #8566aa;
+          border-radius: 40px 40px;
+          margin: 0px,15px,35px;
+          color: aliceblue;
+          box-shadow: 5px 5px 15px rgb(0,0,0,0.3);
+}
+.fa-times:hover{
+          background-color: crimson;
+}
+.todo_style .fa-times:hover .list_style{
+          color: crimson;
+}
+button{
+          background-color: transparent;
+          border: none;
+          position: relative;
+          top:10px;
+          right: -20px;
+          font-size: 40px;
+          color: #fff; 
+          background-color:#8566aa;
+          border-radius: 40px ;
+          padding: 0px 10px;
+          box-shadow: 2px 2px 15px -8px;
+       
+}
+button:hover{
+          color:#20bf6b ;
+          background-color: #fff;
+}
+
